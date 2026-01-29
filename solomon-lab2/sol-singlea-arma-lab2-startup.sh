@@ -192,7 +192,7 @@ cat <<'EOF' > /var/www/html/index.html
 
             <!-- FOOTER -->
             <footer>
-                <p>&copy; 2026 EleMENTALS &mdash; In Light We Roll.</p>
+                <p>&copy; 2026 Infinite Movement &mdash; Roar.</p>
             </footer>
 
         </div>
