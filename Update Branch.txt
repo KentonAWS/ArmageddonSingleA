@@ -1,0 +1,7 @@
+UPDATE BRANCH
+
+git add <file name>
+
+git commit -m "file"
+
+$ git push -u origin <your branch name>
