@@ -1,3 +1,24 @@
+# ------------------------------------------------------------
+# Global Git Ignore Rules
+# ------------------------------------------------------------
+# This file prevents OS-generated files, editor artifacts, and
+# language/tooling byproducts from being tracked in version control.
+#
+# It applies to:
+# - macOS (e.g., .DS_Store Finder metadata)
+# - Windows (e.g., Thumbs.db, Desktop.ini)
+# - Python (e.g., __pycache__, *.pyc)
+#
+# These files are environment-specific, auto-generated, and do not
+# belong in source control.
+# ------------------------------------------------------------
+
+# macOS Finder metadata
+# .DS_Store files are automatically created by macOS Finder to store
+# folder view settings (icon positions, view mode, sorting, etc.).
+# They are OS-specific, change frequently, and should never be tracked in git.
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
