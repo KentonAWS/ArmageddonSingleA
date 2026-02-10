@@ -1,0 +1,138 @@
+Started at 10pm 2/6/2025
+
+$ python python_app.py
+  File "C:\Users\JazzyJerome\Documents\TheoWAF\SingleA\SingleA_Armageddon_Versio
+nB\SingleAArma_Lab3_b\python_app.py", line 98
+    else
+        ^
+SyntaxError: expected ':'
+
+Corrected error on line 98 and 102 by adding :
+
+JazzyJerome@JAZZYWORKSTATION MINGW64 ~/Documents/TheoWAF/SingleA/SingleA_Armageddon_VersionB/SingleAArma_Lab3_b (kenton_lab3)
+$ python python_app.py 
+  File "C:\Users\JazzyJerome\Documents\TheoWAF\SingleA\SingleA_Armageddon_VersionB\SingleAArma_Lab3_b\python_app.py", line 102
+    def bad_function(x, y)
+                          ^
+SyntaxError: expected ':'
+
+JazzyJerome@JAZZYWORKSTATION MINGW64 ~/Documents/TheoWAF/SingleA/SingleA_Armageddon_VersionB/SingleAArma_Lab3_b (kenton_lab3)
+$ python python_app.py 
+Enter an upper limit to generate primes: 22
+Primes up to 22 : [2, 3, 5, 7, 11, 13, 17, 19]
+Number of primes: 8
+Average of primes: 9.625
+Primes list with 1 included: [1, 2, 3, 5, 7, 11, 13, 17, 19]
+Wrong average due to logic error: 9.75
+Error computing stats: unsupported operand type(s) for -: 'list' and 'int'
+Compare '3.0' and '3': Equal
+Compare '5.5' and '4': A greater
+Countdown: 10
+Countdown: 9
+Countdown: 8
+Countdown: 7
+Countdown: 6
+Countdown: 5
+Countdown: 4
+Countdown: 3
+Countdown: 2
+Countdown: 1
+Counter is 0
+Counter is 1
+Counter reached 2
+Counter is 2
+Result of bad function: 2
+1 is odd
+2 is even
+3 is odd
+4 is even
+5 is odd
+Nested 0 0
+Nested 0 1
+Nested 1 0
+Nested 1 1
+Nested 2 0
+Nested 2 1
+Test string evaluates to true
+
+
+2/7/2025
+removed lines 43-48  1 is not a prime number
+
+JazzyJerome@JAZZYWORKSTATION MINGW64 ~/Documents/TheoWAF/SingleA/SingleA_Armageddon_VersionB/SingleAArma_Lab3_b (kenton_lab3)
+$ python kenton_app.py 
+Enter an upper limit to generate primes: 22
+Primes up to 22 : [2, 3, 5, 7, 11, 13, 17, 19]
+Number of primes: 8
+Average of primes: 9.625
+Error computing stats: unsupported operand type(s) for -: 'list' and 'int'
+Compare '3.0' and '3': Equal
+Compare '5.5' and '4': A greater
+Countdown: 10
+Countdown: 9
+Countdown: 8
+Countdown: 7
+Countdown: 6
+Countdown: 5
+Countdown: 4
+Countdown: 3
+Countdown: 2
+Countdown: 1
+Counter is 0
+Counter is 1
+Counter reached 2
+Counter is 2
+Result of bad function: 2
+1 is odd
+2 is even
+3 is odd
+4 is even
+5 is odd
+Nested 0 0
+Nested 0 1
+Nested 1 0
+Nested 1 1
+Nested 2 0
+Nested 2 1
+Test string evaluates to true
+
+
+line 52 added parathasees in front of len and after numbers
+variance = sum((x - mean)**2 for x in numbers) / (len(numbers) - 1) Working code
+variance = sum((x - mean)**2 for x in numbers) / len(numbers - 1)  Bad code
+
+$ python kenton_app.py
+Enter an upper limit to generate primes: 22
+Primes up to 22 : [2, 3, 5, 7, 11, 13, 17, 19]
+Number of primes: 8
+Average of primes: 9.625
+Mean: 9.625 Variance: 40.839285714285715
+Compare '3.0' and '3': Equal
+Compare '5.5' and '4': A greater
+Countdown: 10
+Countdown: 9
+Countdown: 8
+Countdown: 7
+Countdown: 6
+Countdown: 5
+Countdown: 4
+Countdown: 3
+Countdown: 2
+Countdown: 1
+Counter is 0
+Counter is 1
+Counter reached 2
+Counter is 2
+Result of bad function: 2
+1 is odd
+2 is even
+3 is odd
+4 is even
+5 is odd
+Nested 0 0
+Nested 0 1
+Nested 1 0
+Nested 1 1
+Nested 2 0
+Nested 2 1
+Test string evaluates to true
